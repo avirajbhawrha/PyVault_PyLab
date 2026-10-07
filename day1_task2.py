@@ -14,7 +14,7 @@ final_total = subtotal - discount_amount
 # Display formatted receipt
 print("\n" + "=" * 45)
 print("              SALES RECEIPT")
-print("=" * 45)git switch -c task-day-2
+print("=" * 45)
 
 
 print(f"Product Name       : {product_name}")
