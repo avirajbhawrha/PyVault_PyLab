@@ -61,6 +61,7 @@ def profile_page():
     st.header("Personal Information")
 
     full_name = st.text_input("Full Name")
+
     age = st.number_input(
         "Age",
         min_value=1,
@@ -98,6 +99,12 @@ def profile_page():
 
     if st.button("Show Profile"):
 
+        # Automatically capitalize first letter
+        # of every word
+
+        full_name = full_name.title()
+        favorite_language = favorite_language.title()
+
         st.divider()
 
         st.header("📋 Profile Information")
@@ -105,33 +112,43 @@ def profile_page():
         st.write(f"**Full Name:** {full_name}")
         st.write(f"**Age:** {age}")
         st.write(f"**Height:** {height} meters")
+
         st.write(
             f"**Favorite Programming Language:** "
             f"{favorite_language}"
         )
+
         st.write(
             f"**Years of Coding Experience:** "
             f"{coding_experience}"
         )
+
         st.write(
             f"**Currently Learning Python:** "
             f"{currently_learning_python}"
         )
+
+        # ----------------------------------------------------
+        # Data Types
+        # ----------------------------------------------------
 
         st.divider()
 
         st.subheader("Data Types")
 
         st.write(
-            f"Full Name Type: {type(full_name).__name__}"
+            f"Full Name Type: "
+            f"{type(full_name).__name__}"
         )
 
         st.write(
-            f"Age Type: {type(age).__name__}"
+            f"Age Type: "
+            f"{type(age).__name__}"
         )
 
         st.write(
-            f"Height Type: {type(height).__name__}"
+            f"Height Type: "
+            f"{type(height).__name__}"
         )
 
         st.write(
@@ -183,7 +200,12 @@ def profile_page():
 
     if st.button("Calculate Receipt"):
 
+        # Automatically capitalize every word
+        product_name = product_name.title()
+
+        # ----------------------------------------------------
         # Calculations
+        # ----------------------------------------------------
 
         subtotal = price * quantity
 
@@ -195,7 +217,9 @@ def profile_page():
             subtotal - discount_amount
         )
 
+        # ----------------------------------------------------
         # Receipt
+        # ----------------------------------------------------
 
         st.divider()
 
