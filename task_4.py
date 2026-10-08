@@ -8,10 +8,7 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s',
     datefmt='%Y-%m-%d %H:%M:%S'
 )
-logging.info("-----------------Task 1 Started--------------------")
-logging.info("Program started.")
-
-# Log program start
+logging.info("-----------------Task 4 Started--------------------")
 logging.info("Program started.")
 
 # Take input from user
@@ -35,15 +32,12 @@ logging.info(f"Value displayed: {value}")
 if value:
     print("In Python,", value, "is Truthy")
     print("Python checks whether the value is considered present, non-empty, or non-zero.")
-
     logging.info(f"Value {value} is Truthy.")
-
 else:
     print("In Python,", value, "is Falsy")
     print("Python checks whether the value is considered empty, zero, absent, or false.")
-
     logging.info(f"Value {value} is Falsy.")
 
 # Log program completion
 logging.info("Program completed successfully.")
-logging.info("----------------Task 4 Ended-------------------")
+logging.info("-----------------Task 4 Ended--------------------")
