@@ -4,7 +4,7 @@ import logging
 
 # Configure logging
 logging.basicConfig(
-    filename="task5_6.log",
+    filename="logdata.log",
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s"
 )

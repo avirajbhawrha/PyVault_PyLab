@@ -2,11 +2,13 @@ import logging
 
 # Configure the logging settings
 logging.basicConfig(
-    filename='program_history.log',  # The file where logs will be stored
+    filename='logdata.log',  # The file where logs will be stored
     level=logging.INFO,              # Log level (INFO and above)
     format='%(asctime)s - %(levelname)s - %(message)s', # Include timestamp
     datefmt='%Y-%m-%d %H:%M:%S'      # Format for the timestamp
 )
+logging.info("-----------------Task 3 Started--------------------")
+logging.info("Program started.")
 
 # Helper function to validate names (letters only, max 8 characters)
 def get_valid_name(prompt):
@@ -84,17 +86,14 @@ logging.info(f"Calculated age: {age}")
 
 # 4. Display personalized message
 final_message = (
-    f"\n{'=' * 40}\n"
-    f"   ✨ Personalized Message ✨\n"
-    f"{'=' * 40}\n"
-    f"Full Name       : {first_name} {last_name}\n"
-    f"Age             : {age}\n"
-    f"Favorite × 2    : {favorite_number * 2}\n"
-    f"{'=' * 40}"
+    f"Full Name: {first_name} {last_name}\n"
+    f"Age: {age}\n"
+    f"Favorite Number × 2: {favorite_number * 2}"
 )
 
 print(final_message)
 
+
 # Log the final output
 logging.info(f"Displayed final message to user:\n{final_message}")
-logging.info("--- Program Finished ---\n")
+logging.info("--- task 3 Finished ---\n")

@@ -1,7 +1,0 @@
-2026-10-07 16:57:37,300 - INFO - Program started
-2026-10-07 16:57:54,164 - INFO - User entered: '10'
-2026-10-07 16:57:54,164 - INFO - Input successfully evaluated. Value: 10, Type: int
-2026-10-07 16:57:54,164 - INFO - Final value: 10
-2026-10-07 16:57:54,165 - INFO - Result: Truthy
-2026-10-07 16:57:54,165 - INFO - Reason: The value is considered present, non-empty, or non-zero.
-2026-10-07 16:57:54,165 - INFO - Program completed
