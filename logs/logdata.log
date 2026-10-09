@@ -1,12 +1,283 @@
-2026-10-08 23:09:33 - INFO - Product name entered.
-2026-10-08 23:09:36 - INFO - Price entered.
-2026-10-08 23:09:38 - INFO - Quantity entered.
-2026-10-08 23:09:42 - INFO - Discount percentage entered.
-2026-10-08 23:09:42 - INFO - Subtotal calculated: 12.00
-2026-10-08 23:09:42 - INFO - Discount amount calculated: 1.80
-2026-10-08 23:09:42 - INFO - Final total calculated: 10.20
-2026-10-08 23:09:42 - INFO - Sales receipt displayed successfully.
-2026-10-08 23:09:42 - INFO - Task 2 - f-Strings Practice program completed successfully.
-2026-10-08 23:09:42 - INFO - -----------------Task 2 Ended--------------------
-2026-10-08 23:09:42 - INFO - -----------------Task 3 Started--------------------
-2026-10-08 23:09:42 - INFO - Program started.
+2026-10-09 11:34:58 - INFO - =================== main.py Started ===================
+2026-10-09 11:34:58 - INFO - -----------------Task 1 Started--------------------
+2026-10-09 11:34:58 - INFO - Program started.
+2026-10-09 11:35:11 - INFO - Name entered successfully.
+2026-10-09 11:35:14 - INFO - Age entered successfully.
+2026-10-09 11:35:15 - INFO - Height entered successfully.
+2026-10-09 11:35:19 - INFO - Favorite programming language entered.
+2026-10-09 11:35:21 - INFO - Coding experience entered successfully.
+2026-10-09 11:35:21 - INFO - Currently learning Python: True
+2026-10-09 11:35:21 - INFO - Personal information displayed successfully.
+2026-10-09 11:35:21 - INFO - Data types displayed successfully.
+2026-10-09 11:35:21 - INFO - Program completed successfully.
+2026-10-09 11:35:21 - INFO - -----------------Task 1 Ended--------------------
+2026-10-09 11:35:21 - INFO - -----------------Task 2 Started--------------------
+2026-10-09 11:35:21 - INFO - Task 2 - f-Strings Practice program started.
+2026-10-09 11:36:37 - INFO - Product name entered.
+2026-10-09 11:36:40 - INFO - Price entered.
+2026-10-09 11:36:41 - INFO - Quantity entered.
+2026-10-09 11:36:43 - INFO - Discount percentage entered.
+2026-10-09 11:36:43 - INFO - Subtotal calculated: 244.00
+2026-10-09 11:36:43 - INFO - Discount amount calculated: 48.80
+2026-10-09 11:36:43 - INFO - Final total calculated: 195.20
+2026-10-09 11:36:43 - INFO - Sales receipt displayed successfully.
+2026-10-09 11:36:43 - INFO - Task 2 - f-Strings Practice program completed successfully.
+2026-10-09 11:36:43 - INFO - -----------------Task 2 Ended--------------------
+2026-10-09 11:36:43 - INFO - -----------------Task 3 Started--------------------
+2026-10-09 11:36:43 - INFO - Program started.
+2026-10-09 11:37:01 - WARNING - Invalid name input: 'python -u "c:\Users\avira\OneDrive\Desktop\08_10\PyVault_PyLab\main.py"' (Contains numbers/symbols)
+2026-10-09 11:37:08 - INFO - =================== main.py Started ===================
+2026-10-09 11:37:08 - INFO - -----------------Task 1 Started--------------------
+2026-10-09 11:37:08 - INFO - Program started.
+2026-10-09 11:37:10 - INFO - Name entered successfully.
+2026-10-09 11:37:12 - INFO - Age entered successfully.
+2026-10-09 11:37:13 - INFO - Height entered successfully.
+2026-10-09 11:37:16 - INFO - Favorite programming language entered.
+2026-10-09 11:37:18 - INFO - Coding experience entered successfully.
+2026-10-09 11:37:18 - INFO - Currently learning Python: True
+2026-10-09 11:37:18 - INFO - Personal information displayed successfully.
+2026-10-09 11:37:18 - INFO - Data types displayed successfully.
+2026-10-09 11:37:18 - INFO - Program completed successfully.
+2026-10-09 11:37:18 - INFO - -----------------Task 1 Ended--------------------
+2026-10-09 11:37:18 - INFO - -----------------Task 2 Started--------------------
+2026-10-09 11:37:18 - INFO - Task 2 - f-Strings Practice program started.
+2026-10-09 11:37:20 - INFO - Product name entered.
+2026-10-09 11:37:22 - INFO - Price entered.
+2026-10-09 11:37:24 - INFO - Quantity entered.
+2026-10-09 11:37:31 - INFO - Discount percentage entered.
+2026-10-09 11:37:31 - INFO - Subtotal calculated: 15886.00
+2026-10-09 11:37:31 - INFO - Discount amount calculated: 6354.40
+2026-10-09 11:37:31 - INFO - Final total calculated: 9531.60
+2026-10-09 11:37:31 - INFO - Sales receipt displayed successfully.
+2026-10-09 11:37:31 - INFO - Task 2 - f-Strings Practice program completed successfully.
+2026-10-09 11:37:31 - INFO - -----------------Task 2 Ended--------------------
+2026-10-09 11:37:31 - INFO - -----------------Task 3 Started--------------------
+2026-10-09 11:37:31 - INFO - Program started.
+2026-10-09 12:10:40 - INFO - =================== Login Started ===================
+2026-10-09 12:10:54 - INFO - Login successful for user 'charan'
+2026-10-09 12:12:51 - INFO - =================== Login Started ===================
+2026-10-09 12:13:01 - INFO - Login successful for user 'charan'
+2026-10-09 12:13:40 - INFO - Valid name entered: 'Abhi'
+2026-10-09 12:13:42 - INFO - Valid name entered: 'Bhawr'
+2026-10-09 12:13:45 - INFO - Valid birth year entered: 2003
+2026-10-09 12:13:46 - INFO - Valid favorite number entered: 1
+2026-10-09 12:14:05 - INFO - =================== Task queue Started ===================
+2026-10-09 12:14:05 - INFO - -----------------Task 1 Started--------------------
+2026-10-09 12:14:05 - INFO - Program started.
+2026-10-09 12:14:05 - INFO - Name entered successfully.
+2026-10-09 12:14:05 - INFO - Age entered successfully.
+2026-10-09 12:14:05 - INFO - Height entered successfully.
+2026-10-09 12:14:05 - INFO - Favorite programming language entered.
+2026-10-09 12:14:05 - INFO - Coding experience entered successfully.
+2026-10-09 12:14:05 - INFO - Currently learning Python: True
+2026-10-09 12:14:05 - INFO - Personal information displayed successfully.
+2026-10-09 12:14:05 - INFO - Data types displayed successfully.
+2026-10-09 12:14:05 - INFO - Program completed successfully.
+2026-10-09 12:14:05 - INFO - -----------------Task 1 Ended--------------------
+2026-10-09 12:14:05 - INFO - -----------------Task 2 Started--------------------
+2026-10-09 12:14:05 - INFO - Task 2 - f-Strings Practice program started.
+2026-10-09 12:14:05 - INFO - Product name entered.
+2026-10-09 12:14:05 - INFO - Price entered.
+2026-10-09 12:14:05 - INFO - Quantity entered.
+2026-10-09 12:14:05 - INFO - Discount percentage entered.
+2026-10-09 12:14:05 - INFO - Subtotal calculated: 16008.00
+2026-10-09 12:14:05 - INFO - Discount amount calculated: 3201.60
+2026-10-09 12:14:05 - INFO - Final total calculated: 12806.40
+2026-10-09 12:14:05 - INFO - Sales receipt displayed successfully.
+2026-10-09 12:14:05 - INFO - Task 2 - f-Strings Practice program completed successfully.
+2026-10-09 12:14:05 - INFO - -----------------Task 2 Ended--------------------
+2026-10-09 12:14:05 - INFO - -----------------Task 3 Started--------------------
+2026-10-09 12:14:05 - INFO - Program started.
+2026-10-09 12:14:05 - INFO - Valid name entered: 'Abhi'
+2026-10-09 12:14:05 - INFO - Valid name entered: 'Bhawr'
+2026-10-09 12:14:05 - INFO - Valid birth year entered: 2003
+2026-10-09 12:14:05 - INFO - Valid favorite number entered: 1
+2026-10-09 12:14:05 - INFO - Calculated age: 23
+2026-10-09 12:14:05 - INFO - Displayed final message to user:
+Full Name: Abhi Bhawr
+Age: 23
+Favorite Number x 2: 2
+2026-10-09 12:14:05 - INFO - -----------------Task 3 Ended--------------------
+2026-10-09 12:14:05 - INFO - -----------------Task 4 Started--------------------
+2026-10-09 12:14:05 - INFO - Program started.
+2026-10-09 12:14:05 - INFO - User entered: 155
+2026-10-09 12:14:05 - INFO - Input successfully converted to Python value: 155
+2026-10-09 12:14:05 - INFO - Value displayed: 155
+2026-10-09 12:14:05 - INFO - Value 155 is Truthy.
+2026-10-09 12:14:05 - INFO - Program completed successfully.
+2026-10-09 12:14:05 - INFO - -----------------Task 4 Ended--------------------
+2026-10-09 12:14:05 - INFO - -----------------Task 5 Started--------------------
+2026-10-09 12:14:05 - INFO - Calculator started
+2026-10-09 12:14:05 - INFO - Numbers entered: 122.0, 52.0
+2026-10-09 12:14:05 - INFO - Operation selected: +
+2026-10-09 12:14:05 - INFO - Addition performed: 122.0 + 52.0 = 174.0
+2026-10-09 12:14:05 - INFO - Calculator execution completed
+2026-10-09 12:14:05 - INFO - -----------------Task 5 Ended--------------------
+2026-10-09 12:14:05 - INFO - -----------------Task 6 Started--------------------
+2026-10-09 12:14:05 - INFO - Age eligibility checker started
+2026-10-09 12:14:05 - INFO - Age entered: 22
+2026-10-09 12:14:05 - INFO - Valid age accepted: 22
+2026-10-09 12:14:05 - INFO - License input: yes
+2026-10-09 12:14:05 - INFO - Can drive: Yes
+2026-10-09 12:14:05 - INFO - Senior status: No
+2026-10-09 12:14:05 - INFO - Teenager status: No
+2026-10-09 12:14:05 - INFO - Voting eligibility: Yes
+2026-10-09 12:14:05 - INFO - License status: Has a driver's license
+2026-10-09 12:14:05 - INFO - Age eligibility checker completed
+2026-10-09 12:14:05 - INFO - -----------------Task 6 Ended--------------------
+2026-10-09 12:14:05 - INFO - =================== Task queue Ended ===================
+2026-10-09 12:14:05 - INFO - =================== Logout ===================
+2026-10-09 12:25:35 - INFO - =================== Task queue Started ===================
+2026-10-09 12:26:03 - WARNING - Invalid input for 'Enter age:': '\x18'
+2026-10-09 12:26:25 - INFO - =================== Login Started ===================
+2026-10-09 12:26:45 - INFO - Login successful for user 'charan'
+2026-10-09 12:26:45 - INFO - =================== Task queue Started ===================
+2026-10-09 12:27:08 - INFO - -----------------Task 1 Started--------------------
+2026-10-09 12:27:08 - INFO - Program started.
+2026-10-09 12:27:08 - INFO - Name entered successfully.
+2026-10-09 12:27:08 - INFO - Age entered successfully.
+2026-10-09 12:27:08 - INFO - Height entered successfully.
+2026-10-09 12:27:08 - INFO - Favorite programming language entered.
+2026-10-09 12:27:08 - INFO - Coding experience entered successfully.
+2026-10-09 12:27:08 - INFO - Currently learning Python: True
+2026-10-09 12:27:08 - INFO - Personal information displayed successfully.
+2026-10-09 12:27:08 - INFO - Data types displayed successfully.
+2026-10-09 12:27:08 - INFO - Program completed successfully.
+2026-10-09 12:27:08 - INFO - -----------------Task 1 Ended--------------------
+2026-10-09 12:27:08 - INFO - Waiting 5 sec before Task 2 starts
+2026-10-09 12:27:33 - INFO - -----------------Task 2 Started--------------------
+2026-10-09 12:27:33 - INFO - Task 2 - f-Strings Practice program started.
+2026-10-09 12:27:33 - INFO - Product name entered.
+2026-10-09 12:27:33 - INFO - Price entered.
+2026-10-09 12:27:33 - INFO - Quantity entered.
+2026-10-09 12:27:33 - INFO - Discount percentage entered.
+2026-10-09 12:27:33 - INFO - Subtotal calculated: 3666.00
+2026-10-09 12:27:33 - INFO - Discount amount calculated: 843.18
+2026-10-09 12:27:33 - INFO - Final total calculated: 2822.82
+2026-10-09 12:27:33 - INFO - Sales receipt displayed successfully.
+2026-10-09 12:27:33 - INFO - Task 2 - f-Strings Practice program completed successfully.
+2026-10-09 12:27:33 - INFO - -----------------Task 2 Ended--------------------
+2026-10-09 12:27:33 - INFO - Waiting 5 sec before Task 3 starts
+2026-10-09 12:28:09 - INFO - =================== Login Started ===================
+2026-10-09 12:28:17 - INFO - Login successful for user 'charan'
+2026-10-09 12:28:17 - INFO - =================== Task queue Started ===================
+2026-10-09 12:28:30 - INFO - -----------------Task 1 Started--------------------
+2026-10-09 12:28:30 - INFO - Program started.
+2026-10-09 12:28:30 - INFO - Name entered successfully.
+2026-10-09 12:28:30 - INFO - Age entered successfully.
+2026-10-09 12:28:30 - INFO - Height entered successfully.
+2026-10-09 12:28:30 - INFO - Favorite programming language entered.
+2026-10-09 12:28:30 - INFO - Coding experience entered successfully.
+2026-10-09 12:28:30 - INFO - Currently learning Python: True
+2026-10-09 12:28:30 - INFO - Personal information displayed successfully.
+2026-10-09 12:28:30 - INFO - Data types displayed successfully.
+2026-10-09 12:28:30 - INFO - Program completed successfully.
+2026-10-09 12:28:30 - INFO - -----------------Task 1 Ended--------------------
+2026-10-09 12:28:30 - INFO - Waiting 5 sec before Task 2 starts
+2026-10-09 12:28:44 - INFO - -----------------Task 2 Started--------------------
+2026-10-09 12:28:44 - INFO - Task 2 - f-Strings Practice program started.
+2026-10-09 12:28:44 - INFO - Product name entered.
+2026-10-09 12:28:44 - INFO - Price entered.
+2026-10-09 12:28:44 - INFO - Quantity entered.
+2026-10-09 12:28:44 - INFO - Discount percentage entered.
+2026-10-09 12:28:44 - INFO - Subtotal calculated: 24.00
+2026-10-09 12:28:44 - INFO - Discount amount calculated: 3.12
+2026-10-09 12:28:44 - INFO - Final total calculated: 20.88
+2026-10-09 12:28:44 - INFO - Sales receipt displayed successfully.
+2026-10-09 12:28:44 - INFO - Task 2 - f-Strings Practice program completed successfully.
+2026-10-09 12:28:44 - INFO - -----------------Task 2 Ended--------------------
+2026-10-09 12:28:44 - INFO - Waiting 5 sec before Task 3 starts
+2026-10-09 12:28:53 - INFO - Valid name entered: 'Charan'
+2026-10-09 12:28:55 - INFO - Valid name entered: 'Sharma'
+2026-10-09 12:28:58 - INFO - Valid birth year entered: 2004
+2026-10-09 12:29:00 - INFO - Valid favorite number entered: 12
+2026-10-09 12:29:00 - INFO - -----------------Task 3 Started--------------------
+2026-10-09 12:29:00 - INFO - Program started.
+2026-10-09 12:29:00 - INFO - Valid name entered: 'Charan'
+2026-10-09 12:29:00 - INFO - Valid name entered: 'Sharma'
+2026-10-09 12:29:00 - INFO - Valid birth year entered: 2004
+2026-10-09 12:29:00 - INFO - Valid favorite number entered: 12
+2026-10-09 12:29:00 - INFO - Calculated age: 22
+2026-10-09 12:29:00 - INFO - Displayed final message to user:
+Full Name: Charan Sharma
+Age: 22
+Favorite Number x 2: 24
+2026-10-09 12:29:00 - INFO - -----------------Task 3 Ended--------------------
+2026-10-09 12:29:00 - INFO - Waiting 5 sec before Task 4 starts
+2026-10-09 12:29:07 - INFO - -----------------Task 4 Started--------------------
+2026-10-09 12:29:07 - INFO - Program started.
+2026-10-09 12:29:07 - INFO - User entered: 22
+2026-10-09 12:29:07 - INFO - Input successfully converted to Python value: 22
+2026-10-09 12:29:07 - INFO - Value displayed: 22
+2026-10-09 12:29:07 - INFO - Value 22 is Truthy.
+2026-10-09 12:29:07 - INFO - Program completed successfully.
+2026-10-09 12:29:07 - INFO - -----------------Task 4 Ended--------------------
+2026-10-09 12:29:07 - INFO - Waiting 5 sec before Task 5 starts
+2026-10-09 12:29:17 - INFO - -----------------Task 5 Started--------------------
+2026-10-09 12:29:17 - INFO - Calculator started
+2026-10-09 12:29:17 - INFO - Numbers entered: 25.0, 52.0
+2026-10-09 12:29:17 - INFO - Operation selected: +
+2026-10-09 12:29:17 - INFO - Addition performed: 25.0 + 52.0 = 77.0
+2026-10-09 12:29:17 - INFO - Calculator execution completed
+2026-10-09 12:29:17 - INFO - -----------------Task 5 Ended--------------------
+2026-10-09 12:29:17 - INFO - Waiting 5 sec before Task 6 starts
+2026-10-09 12:29:29 - INFO - -----------------Task 6 Started--------------------
+2026-10-09 12:29:29 - INFO - Age eligibility checker started
+2026-10-09 12:29:29 - INFO - Age entered: 21
+2026-10-09 12:29:29 - INFO - Valid age accepted: 21
+2026-10-09 12:29:29 - INFO - License input: no
+2026-10-09 12:29:29 - INFO - Can drive: No
+2026-10-09 12:29:29 - INFO - Senior status: No
+2026-10-09 12:29:29 - INFO - Teenager status: No
+2026-10-09 12:29:29 - INFO - Voting eligibility: Yes
+2026-10-09 12:29:29 - INFO - License status: Does not have a driver's license
+2026-10-09 12:29:29 - INFO - Age eligibility checker completed
+2026-10-09 12:29:29 - INFO - -----------------Task 6 Ended--------------------
+2026-10-09 12:29:29 - INFO - =================== Task queue Ended ===================
+2026-10-09 12:29:29 - INFO - =================== Logout ===================
+2026-10-09 12:34:37 - INFO - =================== Login Started ===================
+2026-10-09 12:34:49 - INFO - Login successful for user 'charan'
+2026-10-09 12:34:49 - INFO - =================== Task queue Started ===================
+2026-10-09 12:35:18 - INFO - -----------------Task 1 Started--------------------
+2026-10-09 12:35:18 - INFO - Program started.
+2026-10-09 12:35:18 - INFO - Name entered successfully.
+2026-10-09 12:35:18 - INFO - Age entered successfully.
+2026-10-09 12:35:18 - INFO - Height entered successfully.
+2026-10-09 12:35:18 - INFO - Favorite programming language entered.
+2026-10-09 12:35:18 - INFO - Coding experience entered successfully.
+2026-10-09 12:35:18 - INFO - Currently learning Python: True
+2026-10-09 12:35:18 - INFO - Personal information displayed successfully.
+2026-10-09 12:35:18 - INFO - Data types displayed successfully.
+2026-10-09 12:35:18 - INFO - Program completed successfully.
+2026-10-09 12:35:18 - INFO - -----------------Task 1 Ended--------------------
+2026-10-09 12:35:18 - INFO - Waiting 5 sec before Task 2 starts
+2026-10-09 12:35:48 - INFO - -----------------Task 2 Started--------------------
+2026-10-09 12:35:48 - INFO - Task 2 - f-Strings Practice program started.
+2026-10-09 12:35:48 - INFO - Product name entered.
+2026-10-09 12:35:48 - INFO - Price entered.
+2026-10-09 12:35:48 - INFO - Quantity entered.
+2026-10-09 12:35:48 - INFO - Discount percentage entered.
+2026-10-09 12:35:48 - INFO - Subtotal calculated: 270.00
+2026-10-09 12:35:48 - INFO - Discount amount calculated: 91.80
+2026-10-09 12:35:48 - INFO - Final total calculated: 178.20
+2026-10-09 12:35:48 - INFO - Sales receipt displayed successfully.
+2026-10-09 12:35:48 - INFO - Task 2 - f-Strings Practice program completed successfully.
+2026-10-09 12:35:48 - INFO - -----------------Task 2 Ended--------------------
+2026-10-09 12:35:48 - INFO - Waiting 5 sec before Task 3 starts
+2026-10-09 12:36:22 - INFO - Valid name entered: 'Abhi'
+2026-10-09 12:36:25 - INFO - Valid name entered: 'Sharma'
+2026-10-09 12:36:27 - INFO - Valid birth year entered: 2005
+2026-10-09 12:36:29 - INFO - Valid favorite number entered: 34
+2026-10-09 12:36:29 - INFO - -----------------Task 3 Started--------------------
+2026-10-09 12:36:29 - INFO - Program started.
+2026-10-09 12:36:29 - INFO - Valid name entered: 'Abhi'
+2026-10-09 12:36:29 - INFO - Valid name entered: 'Sharma'
+2026-10-09 12:36:29 - INFO - Valid birth year entered: 2005
+2026-10-09 12:36:29 - INFO - Valid favorite number entered: 34
+2026-10-09 12:36:29 - INFO - Calculated age: 21
+2026-10-09 12:36:29 - INFO - Displayed final message to user:
+Full Name: Abhi Sharma
+Age: 21
+Favorite Number x 2: 68
+2026-10-09 12:36:29 - INFO - -----------------Task 3 Ended--------------------
+2026-10-09 12:36:29 - INFO - Waiting 5 sec before Task 4 starts
