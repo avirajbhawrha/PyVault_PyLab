@@ -1,21 +1,23 @@
 """
-main.py - PyVault_PyLab (saare 6 tasks ek file me, terminal ke liye)
+main.py - PyVault_PyLab (all 6 tasks in one file, for the terminal)
 
-Normal tareeka:   python auth.py   (pehle login, phir yeh file chalti hai)
-Seedha chalana:   python main.py   (bina login ke)
+Normal way:   python auth.py   (login first, then this file runs)
+Direct run:   python main.py   (no login)
 
-Saare tasks ek ke baad ek chalte hain aur sabka log
-ek hi file me banta hai:  logs/logdata.log
+All tasks run one after another and every task writes to the
+same log file:  logs/logdata.log
 """
 
 import ast
 import logging
 import os
+import sys
+import textwrap
 import time
 from datetime import date
 
 # ------------------------------------------------------------------
-# COMMON LOGGING SYSTEM (ek hi log file, ek hi jagah)
+# COMMON LOGGING SYSTEM (one log file, one location)
 # ------------------------------------------------------------------
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 LOG_DIR = os.path.join(BASE_DIR, "logs")
@@ -84,8 +86,8 @@ def validate_favorite_number(raw):
 
 
 # ------------------------------------------------------------------
-# TASK LOGIC  (koi input()/print() nahi - lines ki list return karte hain,
-#              isliye terminal aur Streamlit dono me chalte hain)
+# TASK LOGIC  (no input()/print() - each task returns a list of lines,
+#              so the same code works in the terminal and in Streamlit)
 # ------------------------------------------------------------------
 def task1(full_name, age, height, favorite_language, coding_experience):
     banner(1, "Started")
@@ -303,15 +305,15 @@ def task6(age, license_answer):
 
 
 # ------------------------------------------------------------------
-# QUEUE - saare tasks 1 -> 6 order me (app.py yahi use karta hai)
+# QUEUE - all tasks in order 1 -> 6 (app.py uses this too)
 # ------------------------------------------------------------------
 QUEUE = [
-    (1, "Personal Info & Data Types", task1),
-    (2, "Sales Receipt (f-Strings)", task2),
-    (3, "Name / Birth Year Validation", task3),
-    (4, "Truthy / Falsy Checker", task4),
-    (5, "Arithmetic Calculator", task5),
-    (6, "Age & License Checker", task6),
+    (1, "Variables and Data Types", task1),
+    (2, "f-Strings Practice", task2),
+    (3, "User Input and Type Conversions", task3),
+    (4, "Truthy and Falsy Values", task4),
+    (5, "Arithmetic Operators", task5),
+    (6, "Comparison and Logical Operators", task6),
 ]
 
 
@@ -321,7 +323,7 @@ TASK_DELAY = 5  # seconds to wait before each next task starts (terminal mode)
 def run_queue(inputs, on_start=None, on_done=None, delay=0):
     """
     inputs = {1: {...task1 kwargs}, 2: {...}, ..., 6: {...}}
-    Tasks ek ke baad ek chalte hain (delay = tasks ke beech ka wait, seconds).
+    Tasks run one after another (delay = wait between tasks, in seconds).
     Return: [(number, title, lines), ...]
     """
     logger.info("=================== Task queue Started ===================")
@@ -343,7 +345,7 @@ def run_queue(inputs, on_start=None, on_done=None, delay=0):
 # TERMINAL MODE  (python main.py)
 # ------------------------------------------------------------------
 def ask(prompt, cast=str):
-    """Sahi value milne tak dobara poochta hai."""
+    """Keep asking until a valid value is entered."""
     while True:
         raw = input(prompt)
         try:
@@ -420,12 +422,60 @@ COLLECTORS = {1: collect_task1, 2: collect_task2, 3: collect_task3,
 
 
 def collect_terminal_inputs():
-    """Saare tasks ke inputs ek saath (purane code ke liye)."""
+    """Collect the inputs of all tasks at once (kept for older code)."""
     return {number: COLLECTORS[number]() for number in COLLECTORS}
 
 
+# ------------------------------------------------------------------
+# BOX FORMATTING  (terminal output only)
+# ------------------------------------------------------------------
+BOX_WIDTH = 60              # total width of the box (characters)
+TEXT_WIDTH = BOX_WIDTH - 4  # text width between the border and padding
+
+
+def box_banner(text):
+    """Double-line box with the text centered (the box widens for long text)."""
+    inner = max(BOX_WIDTH - 2, len(text) + 4)
+    print("\n╔" + "═" * inner + "╗")
+    print("║" + text.center(inner) + "║")
+    print("╚" + "═" * inner + "╝")
+
+
+def _is_rule(line):
+    """True if the line is only ===== or ----- (a divider line)."""
+    stripped = line.strip()
+    return len(stripped) >= 10 and set(stripped) <= set("=-")
+
+
+def box_result(title, lines):
+    """Show the result in a single-line box with the title centered on top."""
+    top = "┌" + "─" * (BOX_WIDTH - 2) + "┐"
+    divider = "├" + "─" * (BOX_WIDTH - 2) + "┤"
+    bottom = "└" + "─" * (BOX_WIDTH - 2) + "┘"
+
+    rows = list(lines)
+    # drop ===== lines at the start/end, the box border already does that job
+    while rows and _is_rule(rows[0]):
+        rows.pop(0)
+    while rows and _is_rule(rows[-1]):
+        rows.pop()
+
+    print(top)
+    print("│" + title.center(BOX_WIDTH - 2) + "│")
+    print(divider)
+    for line in rows:
+        if _is_rule(line):
+            print(divider)
+        elif line.startswith(" " * 10):  # heading like "SALES RECEIPT" -> center it
+            print("│ " + line.strip().center(TEXT_WIDTH) + " │")
+        else:
+            for part in textwrap.wrap(line, TEXT_WIDTH) or [""]:
+                print("│ " + part.ljust(TEXT_WIDTH) + " │")
+    print(bottom)
+
+
 def wait_before(number, seconds):
-    """Next task shuru hone se pehle seconds tak ruko (countdown ke saath)."""
+    """Wait before the next task starts, showing a countdown."""
     logger.info(f"Waiting {seconds} sec before Task {number} starts")
     for left in range(seconds, 0, -1):
         print(f"\rTask {number} starts in {left} sec...", end="", flush=True)
@@ -434,17 +484,23 @@ def wait_before(number, seconds):
 
 
 def main():
-    """Har task: banner -> inputs -> result. Tasks ke beech TASK_DELAY sec wait."""
+    """For each task: box banner -> inputs -> box result, waiting TASK_DELAY sec between tasks."""
+    try:  # make the box characters display correctly on Windows terminals too
+        sys.stdout.reconfigure(encoding="utf-8")
+    except (AttributeError, ValueError):
+        pass
+
     logger.info("=================== Task queue Started ===================")
 
     for number, title, func in QUEUE:
         if number > 1 and TASK_DELAY:
             wait_before(number, TASK_DELAY)
 
-        print(f"\n{'=' * 50}\n  TASK {number}\n{'=' * 50}")
+        box_banner(f"TASK {number} ({title})")
         inputs = COLLECTORS[number]()
         lines = func(**inputs)
-        print("\n" + "\n".join(lines))
+        print()
+        box_result("RESULT", lines)
 
     logger.info("=================== Task queue Ended ===================")
     print(f"\nAll tasks completed. Log file: {LOG_FILE}")

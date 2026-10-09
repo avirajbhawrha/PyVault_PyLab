@@ -281,3 +281,64 @@ Age: 21
 Favorite Number x 2: 68
 2026-10-09 12:36:29 - INFO - -----------------Task 3 Ended--------------------
 2026-10-09 12:36:29 - INFO - Waiting 5 sec before Task 4 starts
+2026-10-09 12:51:04 - INFO - =================== Task queue Started ===================
+2026-10-09 12:56:04 - INFO - -----------------Task 1 Started--------------------
+2026-10-09 12:56:04 - INFO - Program started.
+2026-10-09 12:56:04 - INFO - Name entered successfully.
+2026-10-09 12:56:04 - INFO - Age entered successfully.
+2026-10-09 12:56:04 - INFO - Height entered successfully.
+2026-10-09 12:56:04 - INFO - Favorite programming language entered.
+2026-10-09 12:56:04 - INFO - Coding experience entered successfully.
+2026-10-09 12:56:04 - INFO - Currently learning Python: True
+2026-10-09 12:56:04 - INFO - Personal information displayed successfully.
+2026-10-09 12:56:04 - INFO - Data types displayed successfully.
+2026-10-09 12:56:04 - INFO - Program completed successfully.
+2026-10-09 12:56:04 - INFO - -----------------Task 1 Ended--------------------
+2026-10-09 12:56:04 - INFO - Waiting 5 sec before Task 2 starts
+2026-10-09 13:07:57 - INFO - =================== Task queue Started ===================
+2026-10-09 13:08:11 - INFO - =================== Login Started ===================
+2026-10-09 13:08:23 - INFO - Login successful for user 'charan'
+2026-10-09 13:08:23 - INFO - =================== Task queue Started ===================
+2026-10-09 13:08:33 - INFO - -----------------Task 1 Started--------------------
+2026-10-09 13:08:33 - INFO - Program started.
+2026-10-09 13:08:33 - INFO - Name entered successfully.
+2026-10-09 13:08:33 - INFO - Age entered successfully.
+2026-10-09 13:08:33 - INFO - Height entered successfully.
+2026-10-09 13:08:33 - INFO - Favorite programming language entered.
+2026-10-09 13:08:33 - INFO - Coding experience entered successfully.
+2026-10-09 13:08:33 - INFO - Currently learning Python: True
+2026-10-09 13:08:33 - INFO - Personal information displayed successfully.
+2026-10-09 13:08:33 - INFO - Data types displayed successfully.
+2026-10-09 13:08:33 - INFO - Program completed successfully.
+2026-10-09 13:08:33 - INFO - -----------------Task 1 Ended--------------------
+2026-10-09 13:08:33 - INFO - Waiting 5 sec before Task 2 starts
+2026-10-09 13:09:43 - INFO - -----------------Task 2 Started--------------------
+2026-10-09 13:09:43 - INFO - Task 2 - f-Strings Practice program started.
+2026-10-09 13:09:43 - INFO - Product name entered.
+2026-10-09 13:09:43 - INFO - Price entered.
+2026-10-09 13:09:43 - INFO - Quantity entered.
+2026-10-09 13:09:43 - INFO - Discount percentage entered.
+2026-10-09 13:09:43 - INFO - Subtotal calculated: 288.00
+2026-10-09 13:09:43 - INFO - Discount amount calculated: 34.56
+2026-10-09 13:09:43 - INFO - Final total calculated: 253.44
+2026-10-09 13:09:43 - INFO - Sales receipt displayed successfully.
+2026-10-09 13:09:43 - INFO - Task 2 - f-Strings Practice program completed successfully.
+2026-10-09 13:09:43 - INFO - -----------------Task 2 Ended--------------------
+2026-10-09 13:09:43 - INFO - Waiting 5 sec before Task 3 starts
+2026-10-09 13:10:49 - INFO - Valid name entered: 'Abhi'
+2026-10-09 13:10:53 - INFO - Valid name entered: 'Lllsa'
+2026-10-09 13:10:55 - INFO - Valid birth year entered: 2003
+2026-10-09 13:10:57 - INFO - Valid favorite number entered: 12
+2026-10-09 13:10:57 - INFO - -----------------Task 3 Started--------------------
+2026-10-09 13:10:57 - INFO - Program started.
+2026-10-09 13:10:57 - INFO - Valid name entered: 'Abhi'
+2026-10-09 13:10:57 - INFO - Valid name entered: 'Lllsa'
+2026-10-09 13:10:57 - INFO - Valid birth year entered: 2003
+2026-10-09 13:10:57 - INFO - Valid favorite number entered: 12
+2026-10-09 13:10:57 - INFO - Calculated age: 23
+2026-10-09 13:10:57 - INFO - Displayed final message to user:
+Full Name: Abhi Lllsa
+Age: 23
+Favorite Number x 2: 24
+2026-10-09 13:10:57 - INFO - -----------------Task 3 Ended--------------------
+2026-10-09 13:10:57 - INFO - Waiting 5 sec before Task 4 starts
